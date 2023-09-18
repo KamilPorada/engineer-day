@@ -2,7 +2,7 @@
   "name": "engineer-day",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mateusz-michalec.github.io/engineer-day",
+  "homepage": "https://kamilporada.github.io/engineer-day",
   "type": "module",
   "scripts": {
     "dev": "vite",
