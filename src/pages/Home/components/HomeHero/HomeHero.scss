@@ -1,0 +1,24 @@
+@import "../../../../assets/variables.scss";
+
+.home {
+  &__hero {
+    background-color: $light-shade;
+    padding-top: 2rem;
+
+    &-img {
+      max-height: 230px;
+    }
+
+    &-title {
+      letter-spacing: 0.3rem;
+      font-family: "Oxanium", cursive;
+      text-shadow: $text-shadow-hero;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .home__hero {
+    padding-top: 10rem;
+  }
+}

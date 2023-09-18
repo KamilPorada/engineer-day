@@ -1,0 +1,38 @@
+@import "../../../../assets/variables.scss";
+
+.home {
+  &__partners {
+    overflow-x: auto;
+
+    :nth-child(2) {
+      animation-delay: 200ms;
+    }
+
+    :nth-child(3) {
+      animation-delay: 400ms;
+    }
+
+    :nth-child(4) {
+      animation-delay: 600ms;
+    }
+
+    :nth-child(5) {
+      animation-delay: 800ms;
+    }
+
+    :nth-child(6) {
+      animation-delay: 1000ms;
+    }
+  }
+
+  &__partner {
+    a {
+      color: $text-color;
+    }
+
+    &-img {
+      max-height: 120px;
+      margin-bottom: 10px;
+    }
+  }
+}

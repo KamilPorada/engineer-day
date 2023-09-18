@@ -1,0 +1,37 @@
+@import "../../assets/variables.scss";
+
+.home {
+  &__images {
+    max-height: 180px;
+    max-width: 50%;
+
+    &--small {
+      max-height: 230px;
+    }
+  }
+}
+
+// images only in desktop view
+
+.woman-sitting {
+  position: absolute;
+  top: -145px;
+  right: -55px;
+}
+
+.man-with-map {
+  left: -180px;
+}
+
+@media only screen and (min-width: 992px) {
+  .home__infographic-info {
+    width: 65%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .home__images {
+    max-height: 40vh;
+  }
+}
